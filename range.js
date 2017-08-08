@@ -6,7 +6,7 @@ function range (start, end) {
   return nums;
 }
 
-function sum (nums) {
+function sumArr (nums) {
   let total = 0;
   for (let i = 0; i < nums.length; i++){
     total += nums[i];
@@ -14,4 +14,4 @@ function sum (nums) {
   console.log(total);
 }
 
-sum(range(1,10));
+sumArr (range(1,10));
